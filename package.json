@@ -1,0 +1,26 @@
+{
+  "name": "b",
+  "version": "1.0.0",
+  "description": "Windows 本地 Morris 二叉树遍历教学 API 与 CLI",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node --disable-warning=ExperimentalWarning dist/server.js",
+    "cli": "node --disable-warning=ExperimentalWarning dist/cli.js",
+    "demo": "npm run build && node --disable-warning=ExperimentalWarning dist/cli.js demo",
+    "test": "tsc -p tsconfig.test.json && node --disable-warning=ExperimentalWarning --test dist/test/*.test.js"
+  },
+  "keywords": [
+    "morris",
+    "binary-tree",
+    "typescript",
+    "sqlite"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "typescript": "^7.0.2"
+  }
+}

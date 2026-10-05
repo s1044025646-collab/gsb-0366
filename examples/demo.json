@@ -1,0 +1,9 @@
+{
+  "rootId": "B",
+  "nodes": [
+    { "id": "B", "label": "根 B", "left": "A", "right": "D" },
+    { "id": "A", "label": "左 A", "left": null, "right": null },
+    { "id": "D", "label": "右 D", "left": "C", "right": null },
+    { "id": "C", "label": "D 的左子 C", "left": null, "right": null }
+  ]
+}
